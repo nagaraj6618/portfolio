@@ -26,7 +26,8 @@ import inplant from "../img/certificate/Inplant-FABHOST.jpg"
 import ibmhack from "../img/certificate/Hackathon-IBM.jpg"
 import jpmorgan from "../img/certificate/Cybersecurity-virtual-Experience-program-Forage.jpg"
 import courseraNodejs from "../img/certificate/Coursera-nodejs.jpg"
-
+import rwr from '../img/certificate/rwr.jpg';
+import lcu from '../img/certificate/LCU.jpg'
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
 
@@ -236,6 +237,18 @@ export const info = {
     ],
    
     awardsCertificate:[
+        {
+            companyName:"Madras Institute of Technology",
+            certifacteName:"Rapid Web Race",
+            image:rwr,
+            description:"2nd Place In Rapid Web Race"
+        },
+        {
+            companyName:"Madras Institute of Technology",
+            certifacteName:"LCU",
+            image:lcu,
+            description:"2nd Place In Learn Code Unleash"
+        },
        
         {
             companyName:"Hackerrank",

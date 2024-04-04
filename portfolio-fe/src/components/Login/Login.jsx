@@ -33,6 +33,7 @@ const Login = () => {
    return (
       <React.Fragment>
          <div className='container'>
+            <div className='title-admin'>Admin Login</div>
             <form onSubmit={handleSubmit} className='form-container'>
                <div className='form-item'>
                   <label className='form-label'>Email:</label>
@@ -44,7 +45,10 @@ const Login = () => {
                   <button type='submit' className='btn-submit'>Login</button>
                </div>
             </form>
-            <Link to='/admin/register'><p className='link-account'>Create an Account</p></Link>
+            <Link to='/admin/register'><p className=' btn-submit'>Create an Account</p></Link>
+         </div>
+         <div className='container'>
+         
          </div>
       </React.Fragment>
    )

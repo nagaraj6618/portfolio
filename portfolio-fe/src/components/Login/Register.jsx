@@ -58,7 +58,7 @@ const Register = () => {
                   <button type='submit' className='btn-submit'>Register</button>
                </div>
             </form>
-            <Link to='/admin/login'><p className='link-account'>SignIn</p></Link>
+            <Link to='/admin/login'><p className='btn-submit'>SignIn</p></Link>
          </div>
       </React.Fragment>
    )

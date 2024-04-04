@@ -11,12 +11,15 @@
 .about-area .about-me{
    font-weight:lighter;
    padding:10px 0px;  
-   
+   text-align: center;
+   font-size: 30px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
    
 }
 .about-area span{
    font-size: 24px;
    font-weight: bolder;
+   
 
 }
 .about-content{

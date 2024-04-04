@@ -3,10 +3,20 @@
   align-items: center;
  /* padding: 10px;
   */
-  justify-content: center;
-  height: 80vh;
+  justify-content: space-around;
+  /* height: 80vh; */
 }
 
 .btn-submit{
    margin-top: 20px;
+}
+.title-admin{
+   font-size: 30px;
+   background: -webkit-linear-gradient(135deg, rgb(0, 255, 164), rgb(166, 104, 255));
+   -webkit-background-clip: text; 
+   background-clip: text; 
+   color: transparent; 
+}
+.list{
+   margin-top: 50px;
 }

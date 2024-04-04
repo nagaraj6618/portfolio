@@ -6,7 +6,7 @@ import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
 import { Box } from "@mui/material";
 import { info } from "../../info/Info";
-import resumePDF from "../../img/nagaraj.pdf"
+import resumePDF from "../../img/nagara-resume.pdf"
 import AboutComponent from '../about/AboutComponent'
 import ClockComponent from '../ClockComponent/ClockComponent';
 import Contact from '../Contact/Contact';
@@ -38,12 +38,12 @@ export default function Home() {
                style={{ background: info.gradient }}
                component={'img'}
                src={me}
-               width={{ xs: '28vh', md: '32vh' }}
-               height={{ xs: '28vh', md: '32vh' }}
+               width={{ xs: '35vh', md: '30vh' }}
+               height={{ xs: '35vh', md: '30vh' }}
                borderRadius={'50%'}
-               p={'0.75rem'}
+               p={'0.2rem'}
                mb={{ xs: '1rem', sm: 0 }}
-               mr={{ xs: 0, md: '2rem' }}
+               mr={{ xs: 0, md: '1.2rem' }}
             />
             <Box>
                <h1>

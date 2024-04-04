@@ -52,7 +52,7 @@ export default function About() {
     }
 
     return (
-        <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'} >
+        <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'0.1rem'} >
             <AboutComponent/>
             {/* <Terminal text={aboutMeText()}/> */}
             <Terminal  text={skillsText()}/>

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Contact.css'
 import { Box } from "@mui/material";
 import { info } from "../../info/Info";
-import resumePDF from "../../img/nagaraj.pdf"
+import resumePDF from "../../img/nagara-resume.pdf"
 import ClockComponent from '../ClockComponent/ClockComponent';
 import SocialIcon from "../home/SocialIcon";
 import { URL } from "../../info/backendUrl.js"
