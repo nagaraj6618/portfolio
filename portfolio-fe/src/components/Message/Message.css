@@ -24,6 +24,7 @@
     background-clip: text; 
     color: transparent; 
   }
+
   .message-container h1, .message-container p{
     padding: 10px;
   }
